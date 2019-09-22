@@ -41,12 +41,9 @@ if (century == 0) {
 
   if (option == 'option1') {
     document.getElementById("akanOutput").innerHTML = "You were born on " + daysOfTheWeek[day] + " and your Akan name would be " + akanMales[day];
-    console.log(daysOfTheWeek[day]);
-    console.log(akanMales[day]);
-  }
-  else {
+    console.log(daysOfTheWeek[day](akanMales[day]));
+  }else {
     document.getElementById("akanOutput").innerHTML = "You were born on " + daysOfTheWeek[day] + " and your Akan name would be " + akanFemales[day];
-    console.log(daysOfTheWeek[day]);
-    console.log(akanFemales[day]);
+    console.log(daysOfTheWeek[day](akanFemales[day]);
+  
   }
-}
