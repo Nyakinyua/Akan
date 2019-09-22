@@ -37,4 +37,3 @@ function dateOfWeek() {
     console.log(akanFemales[day]);
   }
 }
-©

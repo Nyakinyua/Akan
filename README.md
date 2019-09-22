@@ -1,17 +1,17 @@
-# AKAN NAME WEBSITE 1.01
+# AKAN NAME WEBSITE 1.01 
+# https://github.com/Nyakinyua/Akan/blob/master/README.md
 #### An application that generates a name for the user using the details the user inputs. 22/9/2019
 #### By **NYAKINYUA WANJIRU**
 ## Description
-{This is an interactive webpage that allows users to determine their Akan name by inputing their birthdays. A user picks the date of their birth from their date picker, selects their gender then clicks the submit button to reveal their Akan Name.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+{This is an interactive webpage that allows users to determine their Akan name by inputing their birthdays. A user picks the date of their birth from their date picker, selects their gender then clicks the submit button to reveal their Akan Name.
 ## Setup/Installation Requirements
-* This is a great place
-* to list setup instructions
-* in a simple
-* easy-to-understand
-* format
-{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? Do I need to install any dependencies? How should I set up my databases? Is there other code this app depends on?}
+* This application does not require setups or installations. The user is only required to fill in their birthday details and on clicking the submit button, their Akan name is revealed. The user also requires access to internet in order for the application to work.
 ## Known Bugs
-{Are there issues that have not yet been resolved that you want to let users know you know? Outline any issues that would impact use of your application. Share any workarounds that are in place. }
+Html5
+Css
+Javascript
+Bootstrap
+Markdown
 ## Technologies Used
 {Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}
 ## Support and contact details
