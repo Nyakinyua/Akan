@@ -31,8 +31,7 @@ some outputs have been rendered inaccurate by 2 users of the web application.
 |     |      |
 
 ## Support and contact details
-
-{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}
+ ## click [HERE](wanyakinyua968@gmail.com)For further questions concerning the application you can contact me.Feel free to  make contributions to the code.
 ### License
 *https://choosealicense.com/licenses/gpl-3.0/*
 Copyright (c) 2019 **Nyakinyua Wanjiru*
