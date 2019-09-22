@@ -1,8 +1,8 @@
-# AKAN NAMES
-#### An application that generates a name for the user using the details the user inputs. {Date of current version}
-#### By **{List of contributors}**
+# AKAN NAME WEBSITE 1.01
+#### An application that generates a name for the user using the details the user inputs. 22/9/2019
+#### By **NYAKINYUA WANJIRU**
 ## Description
-{This is a detailed description of your application, including its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
+{This is an interactive webpage that allows users to determine their Akan name by inputing their birthdays. A user picks the date of their birth from their date picker, selects their gender then clicks the submit button to reveal their Akan Name.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }
 ## Setup/Installation Requirements
 * This is a great place
 * to list setup instructions
