@@ -22,21 +22,22 @@ function calculateDay(){
     getInfo();
     day = ((((century/4) -2*century-1) + ((5*year/4) ) + ((26*(month+1)/10)) + dateOfBirth) % 7);
      return (Math.floor(day));
+     
 }
-var akanName= document.getElementsByName('female').value;
-var femaleGender = document.getElementById("male").value;
+var akanName= document.getElementsByName('gender1').value;
+var femaleGender = document.getElementById("gender2").value;
 var daysOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 var maleNames= ["Kwasi", "Kwadwo", "Kwabena", "Kwaku", "Yaw", "Kofi", "Kwame"];
 var femaleNames = ["Akosua", "Adwoa", "Abenaa", "Akua", "Yaa", "Afua", "Ama"];
 
 
                                                           
-if (option == 'option1') {
-    document.getElementById("akanOutput").innerHTML = "You were born on " + daysOfTheWeek[day] + " and your Akan name would be " + akanMales[day];
+if (akanName == 'gender1') {
+    document.getElementById("akanOutput").innerHTML = "You were born on " + daysOfTheWeek[day] + " and your Akan name would be " + maleNames[day];
     console.log(daysOfTheWeek[day]);
-    console.log(akanMales[day]);
+    console.log(maleNames[day]);
  } else {
-        document.getElementById("akanOutput").innerHTML = "You were born on " + daysOfTheWeek[day] + " and your Akan name would be " + akanFemales[day];
+        document.getElementById("akanOutput").innerHTML = "You were born on " + daysOfTheWeek[day] + " and your Akan name would be " + femaleNames[day];
         console.log(daysOfTheWeek[day]);
-        console.log(akanFemales[day]);
+        console.log(femaleNames[day]);
 }
