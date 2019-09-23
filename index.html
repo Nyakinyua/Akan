@@ -8,7 +8,7 @@
     <title>Akan-Names</title>
   </head>
   <body>
-      <div class="container-fluid">
+      <div class="container">
           <h1>THE AKAN NAMING SYSTEM</h1>
               <div class="row">
                 <div class="col-sm-7">
@@ -18,16 +18,39 @@
               </div>
               </div>
               <div class="col-sm-5">
-                <h2>Enter Birthday</h2>
-               <div class="form-group">
-                        <form id="myform">
-                            <label for="Inputbirtday">DATE</label>
-                            <input type="date" class="form-control" id="date1" placeholder="DD/MM/YY" required>
+                <h2>Enter Details</h2>
+               < <div class="col-sm-6">
+                <form>
+                   <div class="form-group">
+                     <h2>Enter Details Here</h2>
+                    <label for="inputyear">CENTURY</label>
+                    <input type="number" class="form-control" id="century1" aria-describedby="yearHelp" placeholder="cc">
                     </div>
-                  <div class="input" id="genders">
-                    <input type="radio" id="female" name="gender" value="female">Female
-                    <input type="radio" id="male" name="gender" value="male">Male
-                  </div>
+                    <div class="form-group">
+                      <label for="inputyear">YEAR</label>
+                      <input type="number" class="form-control" id="year1" aria-describedby="yearHelp" placeholder="yyyy">
+                    </div>
+                    <div class="form-group">
+                      <label for="Inputbirthmonth">MONTH</label>
+                      <input type="number" class="form-control" id="month1" placeholder="MM">
+                    </div>
+                    <div class="form-group">
+                            <label for="Inputbirthdate">DATE</label>
+                            <input type="number" class="form-control" id="date1" placeholder="DD">
+                    </div>
+                    <div class="radio-button">
+                      <input type="radio" class="form-check-input" id="gender1">
+                      <label class="gender-check-label" for="exampleCheck1">MALE</label>
+                    </div>
+                    <div class="radio-button">
+                        <input type="radio" class="form-check-input" id="gender2">
+                        <label class="gender-check-label" for="exampleCheck1">FEMALE</label>
+                    </div>
+                    <button type="generate" class="btn btn-success" id="generate">Generate Name</button>
+                  </form>
+                    </div>
+                    <p class="output" id="akanOutput"></p>
+                    </div>
                   <input type="button" value="Submit"  id="submitButton" onclick="akanName()">
                   <div>Result:<span id="result"></span></div>
                 </form>
