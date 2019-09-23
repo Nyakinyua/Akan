@@ -4,11 +4,11 @@
     <meta charset="utf-8">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link href="styles.css"rel="stylesheet">
+    <script src="js/sripts.js"></script>
     <title>Akan-Names</title>
   </head>
   <body>
       <div class="container-fluid">
-        <div class=overlay>
           <h1>THE AKAN NAMING SYSTEM</h1>
               <div class="row">
                 <div class="col-sm-7">
@@ -18,22 +18,23 @@
               </div>
               </div>
               <div class="col-sm-5">
-              <form>
                 <h2>Enter Birthday</h2>
-                <form id="myform">
-                  <input type="number" id="birth" value="dateOfBirth" >
+               <div class="form-group">
+                        <form id="myform">
+                            <label for="Inputbirtday">DATE</label>
+                            <input type="date" class="form-control" id="date1" placeholder="DD/MM/YY" required>
+                    </div>
                   <div class="input" id="genders">
                     <input type="radio" id="female" name="gender" value="female">Female
                     <input type="radio" id="male" name="gender" value="male">Male
                   </div>
-                  <input type="button" value="Submit"  id="submitButton" onclick="akanName()" />
+                  <input type="button" value="Submit"  id="submitButton" onclick="akanName()">
                   <div>Result:<span id="result"></span></div>
                 </form>
       </div>
         </div>
           </div>
     
-  </div>
-  <script href="js/scripts.js"></script>   
+  </div>   
   </body>
   </html>
