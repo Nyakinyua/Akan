@@ -13,7 +13,7 @@ function akanName() {
   var dayOfTheWeek = ["Sunday", "Monday", "Tuesday", "Wednsday", "Thursday", "Friday", "Saturday"];
   var dayCalculate = parseInt(((CC / 4) - 2 * CC - 1) + ((5 * YY / 4)) + ((26 * (MM + 1) / 10))) % 7;
   dayCalculate = dayCalculate - 1;
-  var gender = document.getElementById(genders).value;
+  var gender = document.getElementById('gender').value;
   console.log(dayCalculate);
   if (document.getElementById('male').checked) {
     gender = document.getElementById('male').value;

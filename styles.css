@@ -1,12 +1,11 @@
 body{
     background-color:grey;
-    background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Brooklyn_Museum_1998.36_Mask_Bo_Nun_Amuin.jpg/800px-Brooklyn_Museum_1998.36_Mask_Bo_Nun_Amuin.jpg");
+    background-image: url("https://buzzghana.com/wp-content/uploads/2013/10/Akan-people.jpg");
     background-size: cover;
     background-repeat:no-repeat;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 28px;
-    font-weight: 900;
-    color:whitesmoke;
+    font-weight: bolder;
     text-align: center;
 }
 h1{
@@ -22,7 +21,8 @@ h2{
 .col-sm-5{
     padding:40px;
     margin:30px;
-    float:bottom;
+    float: right;
+
 }
 
 
